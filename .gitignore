@@ -1,0 +1,85 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+
+# Test binary, built with `go test -c`
+*.test
+
+**/__pycache__
+**/build/
+**/objs/
+*.egg-info
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+*.pytest_cache
+*.pt
+
+# ci related
+**/.ci-artifacts/
+
+# agent related
+.skills
+
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+.idea
+.vscode
+.cache
+*.DS_Store
+target/
+scheduler/test/misc
+manager/dist/*
+!manager/dist/.gitkeep
+.chglog
+
+# kernel related
+**/profiling/
+*.ncu-rep
+*.nsys-rep
+*.sqlite
+
+# dataset related
+**/swebench_pro/
+**/swebench_pro.jsonl
+**/sharegpt.jsonl
+**.parquet
+**/create_mixed_trace.py
+**/test_create_mixed_trace.py
+**/sample_trace.sh
+**/mixed_trace.jsonl
+
+
+# tools
+**/tools/
+**/*_audit.**
+
+# vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+logs
+
+# cuda 
+*.o
+*.build
+*.so
+
+
+# C++
+build-docker
+
+# Thumbnails
+._*
