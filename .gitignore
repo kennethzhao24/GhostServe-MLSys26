@@ -69,13 +69,7 @@ manager/dist/*
 
 # Icon must end with two \r
 Icon
-
 logs
-
-# cuda 
-*.o
-*.build
-*.so
 
 
 # C++
